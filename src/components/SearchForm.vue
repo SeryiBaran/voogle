@@ -24,8 +24,8 @@ const isFocused = ref(false);
       type="text"
       name="q"
     />
-    <GoogleCamera class="h-6 w-6" />
-    <GoogleMicrophone class="h-6 w-6" />
+    <GoogleCamera class="h-6 w-6 cursor-pointer" />
+    <GoogleMicrophone class="h-6 w-6 cursor-pointer" />
   </form>
 </template>
 
