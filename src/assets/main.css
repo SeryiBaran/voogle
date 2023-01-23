@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #3c4043;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a:hover {
+  text-decoration: underline;
+}
