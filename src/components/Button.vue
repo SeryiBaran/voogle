@@ -1,8 +1,8 @@
 <script setup lang="ts">
-defineProps({
-  primary: Boolean,
-  isLink: Boolean,
-});
+defineProps<{
+  primary?: boolean;
+  isLink?: boolean;
+}>();
 </script>
 
 <template>
